@@ -12,12 +12,12 @@ class Solution {
                     if (q.charAt(i) != d.charAt(i)) {
                         diff++;
                     }
-                    if (diff > 2) break; // early stop
+                    if (diff > 2) break; 
                 }
 
                 if (diff <= 2) {
                     result.add(q);
-                    break; // no need to check further dictionary words
+                    break; 
                 }
             }
         }
