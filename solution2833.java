@@ -8,9 +8,9 @@ public class Solution {
             else blank++;
         }
 
-        int pos1 = right - (left + blank);
+        int pos1 = right - (left + blank) ;
 
-        int pos2 = (right + blank) - left;
+        int pos2 = (right + blank) - left ;
 
         return Math.max(Math.abs(pos1), Math.abs(pos2));
     }
