@@ -24,13 +24,13 @@ public class Solution {
 
                 long leftSum = (i > 0) ? prefix[i - 1] : 0;
                 long leftCount = i;
-                long leftDist = idx * leftCount - leftSum;
+                long leftDist = idx * leftCount - leftSum ;
 
-                long rightSum = prefix[size - 1] - prefix[i];
-                long rightCount = size - i - 1;
-                long rightDist = rightSum - idx * rightCount;
+                long rightSum = prefix[size - 1] - prefix[i] ;
+                long rightCount = size - i - 1 ;
+                long rightDist = rightSum - idx * rightCount ;
 
-                result[idx] = leftDist + rightDist;
+                result[idx] = leftDist + rightDist ;
             }
         }
 
