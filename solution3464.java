@@ -3,15 +3,15 @@ import java.util.*;
 class Solution {
     public int maxDistance(int side, int[][] points, int k) {
         int n = points.length;
-        long[] unfolded = new long[n];
+        long[] unfolded = new long[n] ;
         
         for (int i = 0; i < n; i++) {
             int x = points[i][0];
             int y = points[i][1];
-            if (x == 0) unfolded[i] = y;
+            if (x == 0) unfolded[i] = y ;
             else if (y == side) unfolded[i] = (long) side + x;
-            else if (x == side) unfolded[i] = (long) 3 * side - y;
-            else unfolded[i] = (long) 4 * side - x;
+            else if (x == side) unfolded[i] = (long) 3 * side - y ;
+            else unfolded[i] = (long) 4 * side - x ;
         }
         
         Arrays.sort(unfolded);
