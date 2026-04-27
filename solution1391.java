@@ -41,7 +41,7 @@ class solution {
                     continue;
                 }
 
-                String back = opposite.get(d[0] + "," + d[1]);
+                String back = opposite.get(d[0] + "," + d[1]) ;
 
                 for (int[] nd : dirs[grid[nx][ny]]) {
                     if ((nd[0] + "," + nd[1]).equals(back)) {
