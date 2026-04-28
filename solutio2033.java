@@ -16,7 +16,7 @@ class Solution {
                 int rem = arr[0] % x;
         for (int val : arr) {
             if (val % x != rem) {
-                return -1;
+                return -1 ;
             }
         }
            Arrays.sort(arr);
