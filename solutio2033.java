@@ -19,11 +19,9 @@ class Solution {
                 return -1;
             }
         }
+           Arrays.sort(arr);
         
-              Arrays.sort(arr);
-        
-      
-        int median = arr[size / 2];
+      int median = arr[size / 2];
         
    
         int operations = 0;
