@@ -8,7 +8,7 @@ class Solution {
         int[][][] dp = new int[m][n][k + 1];
         for (int[][] row : dp) {
             for (int[] cell : row) {
-                Arrays.fill(cell, -1);
+                Arrays.fill(cell, -1) ;
             }
         }
 
