@@ -18,7 +18,7 @@ class Solution {
             int digit = num % 10 ;
 
             if (digit == 3 || digit == 4 || digit == 7) {
-                return false;
+                return false ;
             }
 
             if (digit == 2 || digit == 5 || digit == 6 || digit == 9) {
