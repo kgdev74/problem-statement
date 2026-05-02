@@ -4,7 +4,7 @@ class Solution {
 
         for (int i = 1; i <= n; i++) {
             if (isGood(i)) {
-                count++;
+                count++ ;
             }
         }
 
