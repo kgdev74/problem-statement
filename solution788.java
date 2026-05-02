@@ -15,7 +15,7 @@ class Solution {
         boolean hasChanged = false;
 
         while (num > 0) {
-            int digit = num % 10;
+            int digit = num % 10 ;
 
             if (digit == 3 || digit == 4 || digit == 7) {
                 return false;
